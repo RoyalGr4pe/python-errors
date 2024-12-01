@@ -4,7 +4,7 @@ build-backend = "pdm.backend"
 
 [project]
 name = "python-errors"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
     {name="RoyalGr4pe", email="njames.programming@gmail.com"}
 ]

@@ -22,19 +22,19 @@ To use the decorators in this library, simply import them and apply them to the 
 
 
 
-#### `@secure_call(eoe=False, rv=None)`
+#### `@secure_call(exit_on_error=False, rv=None)`
 
 This decorator catches any general exceptions in the wrapped function. You can choose to return a fallback value or exit the program if an error occurs.
 
 #### Parameters:
-- `eoe (bool)`: If `True`, the program will exit upon encountering an error.
+- `exit_on_error (bool)`: If `True`, the program will exit upon encountering an error.
 - `rv (Any)`: The value to return if an error occurs. If not specified, the function will return `None`.
 
 #### Example:
 ```python
 from python_errors import secure_call
 
-@secure_call(eoe=True, rv="Fallback Value")
+@secure_call(exit_on_error=True, rv="Fallback Value")
 def risky_function():
     # Some code that may raise an exception
     print(1 / 0)  # This will raise ZeroDivisionError
