@@ -1,0 +1,21 @@
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[project]
+name = "python-errors"
+version = "0.0.1"
+authors = [
+    {name="RoyalGr4pe", email="njames.programming@gmail.com"}
+]
+description = "Python logging tool for .log files"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+[project.urls]
+"Homepage" = "https://github.com/RoyalGr4pe/python-errors"
+"Bug Tracker" = "https://github.com/RoyalGr4pe/python-errors/issues"
