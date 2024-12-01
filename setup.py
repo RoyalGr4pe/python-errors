@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="python-errors",
-    version="0.0.4",
+    version="0.0.5",
     author="Nick",
     author_email="njames.programming@example.com",
     description="A library for reducing and identifying critical errors in Python code.",

@@ -1,4 +1,4 @@
-from python_errors.errors import *
+from python_errors.secure import *
 from python_errors.config import setup_errors
 
 setup_errors(delete_logs_on_start=True)
