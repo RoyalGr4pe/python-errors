@@ -72,6 +72,9 @@ def get_logger():
 
 
 def delete_previous_logs_on_start(filename):
-    with open(f"logs/{filename}.log", "r+") as file:
-        file.seek(0)
-        file.truncate()
+    try:
+        with open(f"logs/{filename}.log", "r+") as file:
+            file.seek(0)
+            file.truncate()
+    except FileNotFoundError:
+        return

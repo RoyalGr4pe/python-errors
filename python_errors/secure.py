@@ -187,7 +187,7 @@ def secure_dict_call(exit_on_error=False, rv=None, secure_size=False, secure_typ
     """
     def decorator(func):
         def wrapper(*args, **kwargs):
-            logger = get_logger()  # Call get_logger() dynamically
+            logger = get_logger()
             
             try:
                 dictionary = None
