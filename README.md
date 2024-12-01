@@ -1,6 +1,6 @@
 # Python Errors
 
-**Python Errors** is a Python library designed to handle and manage exceptions effectively, ensuring that critical errors in your code are caught, logged, and handled in a structured way. It provides decorators to help you capture errors in your functions, log them properly, and control the flow of execution (e.g., by returning fallback values or exiting the program).
+**Python Errors** is a Python library designed to handle and manage exceptions effectively, ensuring that critical errors in your code are caught, logged, and handled in a structured way. It provides decorators to help you capture errors in your functions, log them properly, and control the flow of execution.
 
 ## Features
 - **Structured Error Handling**: Log detailed error information including traceback, function name, and line number.
@@ -12,7 +12,7 @@
 You can install **Python Errors** using `pip`:
 
 ```bash
-pip install git+https://github.com/RoyalGr4pe/python-errors.git
+pip install python-errors
 ```
 
 ## Usage
