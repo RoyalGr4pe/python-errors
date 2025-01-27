@@ -1,5 +1,5 @@
-from .config import get_logger, get_limiter, get_require_https
-from .utils.calculate_type import get_type
+from config import get_logger, get_limiter, get_require_https
+from utils.calculate_type import get_type
 
 from flask_jwt_extended import jwt_required
 from functools import wraps
