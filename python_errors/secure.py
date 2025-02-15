@@ -1,7 +1,7 @@
-from handle_traceback import extract_traceback
-from exceptions.arrays import ArrayTypeError, ArrayNotFound, ArraySizeChange
-from exceptions.dicts import DictTypeError, DictNotFound, DictSizeChange
-from config import get_logger
+from .exceptions.arrays import ArrayTypeError, ArrayNotFound, ArraySizeChange
+from .handle_traceback import extract_traceback
+from .exceptions.dicts import DictTypeError, DictNotFound, DictSizeChange
+from .config import get_logger
 
 from os.path import basename
 import traceback
